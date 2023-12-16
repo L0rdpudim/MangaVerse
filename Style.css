@@ -20,12 +20,12 @@
 section {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     padding: 10%;
     background: #121212;
     background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(15, 15, 15), rgb(22, 22, 22),rgb(24, 24, 24),rgb(27, 27, 27),rgb(39, 39, 39), rgb(44, 44, 44), rgb(51, 51, 51));
     background-size: 500% 100%;
-    animation: degrade-animado 5s infinite alternate;
+    animation: degrade-animado 10s infinite alternate;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -103,7 +103,7 @@ header .nav li:last-child {
     }
 
     section {
-        padding: 20px; /* Ajuste de padding para telas menores */
+        padding: 20px; /* Ajuste do padding para telas menores */
     }
 }
 
@@ -126,7 +126,7 @@ header .nav li:last-child {
 
 .container2{
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 0;
     right: 0;
     padding-left: 10%;
@@ -138,3 +138,112 @@ header .nav li:last-child {
     color: white;
     font-size: 1.75vw;
 }
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 30vw;
+    background: #121212;
+    background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(15, 15, 15), rgb(22, 22, 22),rgb(24, 24, 24),rgb(27, 27, 27),rgb(39, 39, 39), rgb(44, 44, 44), rgb(51, 51, 51));
+    background-size: 500% 100%;
+    animation: degrade-animado 10s infinite alternate;
+}
+
+h2.title{
+    color: #0083d4;
+    font-size: 18px;
+}
+
+.secondText{
+    font-size: 0.9vw;
+}
+
+.topCard{
+    padding: 1vw;
+    padding-bottom: 0px;
+}
+
+.bottomCard{
+    padding: 1vw;
+}
+
+.action{
+    background: none;
+    border: none;
+    color: #0083d4;
+    font-size: 1.5vw;
+
+}
+
+.cardBerserk{
+    background: #ffffff;
+    box-shadow: 0vw 2px 23px #4751883e;
+    border-radius: 2vw;
+    width: 15vw;
+    margin: 1vw;
+}
+
+.mediaCardBerserk{
+    background: url(https://upload.wikimedia.org/wikipedia/en/d/db/GutsBerserk.PNG) center/cover;
+    height: 20vw;
+    width: 100%;
+}
+
+.cardOnePiece{
+    background: #ffffff;
+    box-shadow: 0vw 2px 23px #4751883e;
+    border-radius: 2vw;
+    width: 15vw;
+    margin: 1vw;
+}
+
+.mediaCardOnePiece{
+    background: url(https://cdn.kobo.com/book-images/46aa2e72-cba5-4388-a790-51d19eb8c1ae/1200/1200/False/one-piece-vol-100.jpg) center/cover;
+    height: 20vw;
+    width: 100%;
+}
+
+.cardShuumatsu{
+    background: #ffffff;
+    box-shadow: 0vw 2px 23px #4751883e;
+    border-radius: 2vw;
+    width: 15vw;
+    margin: 1vw;
+}
+
+.mediaCardShuumatsu{
+    background: url(https://cdn.slimeread.com/usuarios_covers/7392/Shuumatsu%20no%20Valkyrie%20Webtoon/19_06_.jpeg) center/cover;
+    height: 20vw;
+    width: 100%;
+}
+
+.cardKimetsu{
+    background: #ffffff;
+    box-shadow: 0vw 2px 23px #4751883e;
+    border-radius: 2vw;
+    width: 15vw;
+    margin: 1vw;
+}
+
+.mediaCardKimetsu{
+    background: url(https://cdn.awsli.com.br/2054/2054144/produto/215408592/screenshot_1-zvajxj09v6.jpg) center/cover;
+    height: 20vw;
+    width: 100%;
+}
+
+.cardJujutsu{
+    background: #ffffff;
+    box-shadow: 0vw 2px 23px #4751883e;
+    border-radius: 2vw;
+    width: 15vw;
+    margin: 1vw;
+}
+
+.mediaCardJujutsu{
+    background: url(https://m.media-amazon.com/images/I/71PBZJaSmAL._AC_UF1000,1000_QL80_.jpg) center/cover;
+    height: 20vw;
+    width: 100%;
+} 
