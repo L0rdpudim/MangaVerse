@@ -107,6 +107,21 @@ header .nav li:last-child {
     z-index: 901;
 }
 
+.container2{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.titulo{
+    color: white;
+    font-size: 3vw;
+}
+
 .principal {
     font-size: 5vw; /* Tamanho do texto em relação à largura da viewport */
     font-weight: 500;
@@ -147,3 +162,38 @@ header .nav li:last-child {
     height: 1.75vw;
     width: 2vw;
 }
+
+#botoesContainer {
+    padding: 10px;
+    text-align: center;
+}
+
+.botao {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(1, 145, 255);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.botaoInativo{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #002d49;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: not-allowed;
+}
+
+.botao:hover {
+    background-color: #0056b3;
+}
+
