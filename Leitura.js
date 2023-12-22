@@ -16,6 +16,6 @@ function mostrarOcultarBotao() {
 
 // Função para rolar suavemente ao topo da página
 function voltarAoTopo() {
-    document.body.scrollTop = 0; // Para navegadores da web
-    document.documentElement.scrollTop = 0; // Para o Internet Explorer
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
