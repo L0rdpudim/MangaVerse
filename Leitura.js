@@ -1,16 +1,19 @@
-// Função para mostrar ou ocultar o botão ao rolar a página
+// Função para mostrar ou ocultar o botão e ajustar a opacidade da navbar ao rolar a página
 window.onscroll = function() {
-    mostrarOcultarBotao();
+    mostrarOcultarBotaoEOpacidade();
 };
 
-// Função para mostrar ou ocultar o botão com base no scroll da página
-function mostrarOcultarBotao() {
+// Função para mostrar ou ocultar o botão e ajustar a opacidade com base no scroll da página
+function mostrarOcultarBotaoEOpacidade() {
     var btnTopo = document.getElementById("btnTopo");
+    var OpacNav = document.getElementById("OpacNav");
 
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         btnTopo.style.display = "block";
+        OpacNav.style.opacity = 0.5;
     } else {
         btnTopo.style.display = "none";
+        OpacNav.style.opacity = 1;
     }
 }
 

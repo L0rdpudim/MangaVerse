@@ -9,7 +9,7 @@
 }
 
 body{
-    background: #1e1e1e;
+    background: #151515;
 }
 
 section {
@@ -44,7 +44,7 @@ section {
 }
 
 header {
-    background-color: #002d49;
+    background-color: #040404;
     position: fixed;
     top: 0;
     left: 0;
@@ -120,4 +120,12 @@ header .nav li:last-child {
 .titulo{
     color: white;
     font-size: 3vw;
+}
+
+.principal {
+    font-size: 5vw; /* Tamanho do texto em relação à largura da viewport */
+    font-weight: 500;
+    color: white;
+    padding-right: 2%; /* Espaçamento à direita em relação à largura da viewport */
+    font-family: 'Caveat', cursive;
 }
