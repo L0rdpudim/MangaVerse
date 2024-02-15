@@ -9,7 +9,7 @@
 }
 
 body{
-    background: #1e1e1e;
+    background: #151515;
 }
 
 section {
@@ -44,7 +44,7 @@ section {
 }
 
 header {
-    background-color: #002d49;
+    background-color: #040404;
     position: fixed;
     top: 0;
     left: 0;
@@ -122,6 +122,44 @@ header .nav li:last-child {
     font-size: 3vw;
 }
 
+/* Barra de pesquisa */
+.search-bar {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -45vw; 
+    display: flex;
+    align-items: center;
+}
+
+#chapter-search {
+    margin-right: 5%;
+    border: none;
+    font-size: 1vw;
+    background-color: #151515;
+    color: #ffffff;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    color: #ddd;
+    font-size: 1vw;
+}
+
+.search-button img {
+    width: 2vw;
+    height: auto; 
+}
+
+.search-bar .search-button {
+    transition: transform 0.3s ease;
+}
+
+.search-bar .search-button:hover {
+    transform: translateY(-5px); /* Move a imagem para cima ao passar o mouse sobre ela */
+}
+
 .aviso{
     position: absolute;
     left: 0;
@@ -140,25 +178,25 @@ header .nav li:last-child {
 }
 
 .principal {
-    font-size: 5vw; /* Tamanho do texto em relação à largura da viewport */
+    font-size: 5vw;
     font-weight: 500;
     color: white;
-    padding-right: 2%; /* Espaçamento à direita em relação à largura da viewport */
+    padding-right: 2%;
     font-family: 'Caveat', cursive;
 }
 
 .chapter-list {
     display: flex;
-    flex-direction: column; /* Alterado para empilhar os capítulos verticalmente */
-    align-items: center; /* Alinha os capítulos horizontalmente no centro */
-    padding: 20px; /* Adicione o padding desejado à esquerda e à direita */
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
 .chapter {
     padding: 20px; /* Adicione o padding desejado à esquerda e à direita de cada capítulo */
     background-color: #ddd;
-    margin-bottom: 15px; /* Adicione margem inferior para criar espaço entre os capítulos */
-    width: 40vw; /* Largura fixa para os capítulos */
+    margin-bottom: 0.5vw; /* Adicione margem inferior para criar espaço entre os capítulos */
+    width: 45vw; /* Largura fixa para os capítulos */
     text-align: center; /* Centraliza o texto dentro de cada capítulo */
     white-space: nowrap; /* Impede que os capítulos quebrem para a próxima linha */
 }
