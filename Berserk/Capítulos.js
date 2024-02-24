@@ -11,12 +11,12 @@ function searchChapter() {
     var chapters = document.querySelectorAll('.chapter-list a');
 
     if (inputVal === "") {
-        // Se o campo de pesquisa estiver vazio, exibir todos os capítulos
+        // Se o campo de pesquisa estiver vazio, exibe todos os capítulos
         chapters.forEach(function (chapter) {
             chapter.style.display = 'block';
         });
     } else {
-        // Se o campo de pesquisa não estiver vazio, filtrar capítulos
+        // Se o campo de pesquisa não estiver vazio, filtra os capítulos
         chapters.forEach(function (chapter) {
             var chapterNumber = getChapterNumber(chapter.innerText.toLowerCase());
             if (chapterNumber === inputVal) {
